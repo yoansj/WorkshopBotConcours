@@ -7,7 +7,7 @@
 
 ## Steps
 
-* Step 0 : Prerequisites(Step0.md)
+[* Step 0 : Prerequisites](Step0.md)
 * Step 1 : RT si t triste
   * Basics of the API
   * How to RT
