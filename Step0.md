@@ -14,5 +14,12 @@ sudo dnf install python37
 ```
 ### For Ubuntu
 ```terminal
-sudo apt-get install python3.6
+sudo apt-get install python3.7
+```
+
+# Tweepy
+Next you need to install the Twitter API for python Tweepy
+
+```terminal
+pip3 install tweepy
 ```
