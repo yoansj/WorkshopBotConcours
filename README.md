@@ -8,14 +8,14 @@
 ## Steps
 
 * [Step 0 : Prerequisites](Step0.md)
-* Step 1 : RT si t triste
+* [Step 1 : RT si t triste](Step1.md)
   * Basics of the API
   * How to RT
   * RT with conditions
-* Step 2 : Laisse un Like (rip fav)
+* [Step 2 : Laisse un Like (rip fav)](Step2.md)
   * How to like
   * Like with conditions
-* Step 3 : Vous SUIVEZ toujours ?
+* [Step 3 : Vous SUIVEZ toujours ?](Step3.md)
 
 https://www.tweepy.org
 https://www.python.org/downloads/release/python-360/
