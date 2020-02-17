@@ -23,3 +23,8 @@ Next you need to install the Twitter API for python Tweepy
 ```terminal
 pip3 install tweepy
 ```
+
+# Create a Twitter developper account
+This one will take time.
+Go on the [Twitter developper](https://developer.twitter.com/en/apply-for-access) website and apply for access.
+You will need a valid phone number and you will have to enter some text, the text doesn't really matters...
