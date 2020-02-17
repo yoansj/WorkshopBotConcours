@@ -5,6 +5,17 @@
 
 ### By the end of this workshop you will have a functionnal IA that participates to contests organized on twitter
 
+## Steps
+
+* Step 0 : Prerequisites
+* Step 1 : RT si t triste
+  * Basics of the API
+  * How to RT
+  * RT with conditions
+* Step 2 : Laisse un Like (rip fav)
+  * How to like
+  * Like with conditions
+* Step 3 : Vous SUIVEZ toujours ?
 
 https://www.tweepy.org
 https://www.python.org/downloads/release/python-360/
