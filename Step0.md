@@ -41,4 +41,27 @@ Once your app is created go to **Keys and tokens** and generate your **Consumer 
 If you successfully created your **developper account**, **your app** and **generated your keys** go on to the next step.
 If not than do it, if you need help for this ask for it :smile:
 
-# First contact
+# First contact :alien:
+Create a new .py file and paste the following code in it
+
+Change the values of ```consumer_key```, ```consumer_secret```, ```access_token``` and ```access_token_secret``` to the values of the keys that you generated on the previous step.
+
+```python
+import tweepy
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+public_tweets = api.home_timeline()
+for tweet in public_tweets:
+    print(tweet.text)
+```
+
+Run the file with python3
+```terminal
+pyhton3 myfile.py
+```
+
+You should have a bunch of informations printed in your terminal
