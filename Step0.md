@@ -42,19 +42,22 @@ If you successfully created your **developper account**, **your app** and **gene
 If not than do it, if you need help for this ask for it :smile:
 
 # First contact :alien:
-Create a new .py file and paste the following code in it
+Create a new .py file and paste the following code in it (you could aslo try understanding it)
 
 Change the values of ```consumer_key```, ```consumer_secret```, ```access_token``` and ```access_token_secret``` to the values of the keys that you generated on the previous step.
 
 ```python
 import tweepy
 
+#This part of the code connects your Bot to Twitter
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
-
 api = tweepy.API(auth)
 
+#This function returns the 20 most recents tweets in the timeline of your bot
 public_tweets = api.home_timeline()
+
+#This simple loop print the text of each tweet stored in the public_tweets variable
 for tweet in public_tweets:
     print(tweet.text)
 ```
@@ -64,4 +67,4 @@ Run the file with python3
 pyhton3 myfile.py
 ```
 
-You should have a bunch of informations printed in your terminal
+If the code runs without errors and prints a bunch of informations in your terminal than congratulations you survived ! :tada:
