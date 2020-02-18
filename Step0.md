@@ -25,10 +25,14 @@ pip3 install tweepy
 ```
 
 # Create a Twitter developper account :bird:
-This one will take time.
+This one will take time, be carefull and do **all the things that are said** :warning:
+If you need help simply ask for it ! :question:
+
 Go on the [Twitter developper](https://developer.twitter.com/en/apply-for-access) website and apply for access.
 
 You will need a valid phone number and you will have to enter some text, the text doesn't really matters but you still have to enter it.
 
-Once your developper account is created go to [your apps](https://developer.twitter.com/en/apps) and hit the Create an app button.
+Once your developper account is created go to [your apps](https://developer.twitter.com/en/apps) and hit the **Create an app button**.
 Fill all the required fields and create your app.
+
+Once your app is created go to **Keys and tokens** and generate your **Consumer API keys** and your **Access token & access token secret**
