@@ -26,6 +26,7 @@ pip3 install tweepy
 
 # Create a Twitter developper account :bird:
 This one will take time, be carefull and do **all the things that are said** :warning:
+
 If you need help simply ask for it ! :question:
 
 Go on the [Twitter developper](https://developer.twitter.com/en/apply-for-access) website and apply for access.
