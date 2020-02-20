@@ -16,7 +16,3 @@
   * How to like
   * Like with conditions
 * [Step 3 : Vous SUIVEZ toujours ?](Step3.md)
-
-https://www.tweepy.org
-https://www.python.org/downloads/release/python-360/
-https://developer.twitter.com
