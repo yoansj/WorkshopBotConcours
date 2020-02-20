@@ -21,7 +21,7 @@ In C you would use a ```while``` loop, well in python this is a bit trashy :poop
 **The streams** 
 
 A stream let's you track tweets with specific keywords or tweets made by a specific user.
-Let's take the following code :
+Paste the following code in a .py file and try to understand it :
 ```python
 import tweepy
 
