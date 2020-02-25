@@ -22,6 +22,8 @@ In C you would use a ```while``` loop, well in python this is a bit trashy :poop
 
 A stream let's you track tweets with specific keywords or tweets made by a specific user.
 Paste the following code in a .py file and try to understand it :
+Feel free to modify this code
+
 ```python
 import tweepy
 
@@ -59,3 +61,10 @@ bot = tweepy.Stream(auth = api.auth, listener=bot)
 #Launches your bot
 bot.filter(track=['#botconcours'])
 ```
+## Exercise time
+
+### Ex 01 : RT a simple tweet
+
+The goal of this exercise will be to retweet a simple tweet linked [here](https://twitter.com/AlderiateTV/status/1229424056451182594)
+This exercise isn't really complicated you just have to read the documentation
+**Pro tip** you can get a specific tweet by using the function ```api.get_status()```
