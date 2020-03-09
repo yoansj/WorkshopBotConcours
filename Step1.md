@@ -59,7 +59,7 @@ bot = MyAmazingBot()
 bot = tweepy.Stream(auth = api.auth, listener=bot)
 
 #Launches your bot
-bot.filter(track=['#botconcours'])
+bot.filter(track=['#concours'])
 ```
 ## Exercise time
 
@@ -70,3 +70,25 @@ The goal of this exercise will be to retweet a simple tweet linked [here](https:
 This exercise isn't really complicated you just have to read the [documentation](http://docs.tweepy.org/en/latest/api.html)
 
 **Pro tip** you can get a specific tweet by using the function ```api.get_status()```
+
+### Ex 02 : RT a tweet with some conditions
+
+Now that you know how to RT a tweet how about RT with some conditions ?
+
+Create a function called doWeRT wich searches words into the tweet that indicate if we must retweet the tweet to join the contest.
+
+```python
+    def doWeRT(self, tweet, tweet_text):
+        text = tweet_text.lower()
+        to_return = ""
+        words = ["rt ", "#rt", "#retweet", "retweet"]
+        for word in words:
+            if word in text:
+                to_return += word + ";"
+        if to_return == "":
+            return False
+        return to_return
+```
+As you see this function returns False when it founds no words indicating that we must rt the tweet.
+
+When it returns a non False value you must RT the tweet. The non False value corresponds to the words found you can print them to check what you got.
