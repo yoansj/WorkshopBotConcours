@@ -81,7 +81,7 @@ Create a function called doWeRT wich searches words into the tweet that indicate
     def doWeRT(self, tweet, tweet_text):
         text = tweet_text.lower()
         to_return = ""
-        words = ["rt ", "#rt", "#retweet", "retweet"]
+        words = ["#workshop", "#de", "#yoan"] #à changer par vos mots à vous :) :smile:
         for word in words:
             if word in text:
                 to_return += word + ";"
@@ -92,3 +92,9 @@ Create a function called doWeRT wich searches words into the tweet that indicate
 As you see this function returns False when it founds no words indicating that we must rt the tweet.
 
 When it returns a non False value you must RT the tweet. The non False value corresponds to the words found you can print them to check what you got.
+
+### Are you done ?
+
+Does your bot RT the tweets only when it finds the words written in the doWeRT function ?
+
+If yes head on to the next exercise :smile:
