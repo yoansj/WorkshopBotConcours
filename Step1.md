@@ -81,7 +81,7 @@ Create a function called doWeRT wich searches words into the tweet that indicate
     def doWeRT(self, tweet, tweet_text):
         text = tweet_text.lower()
         to_return = ""
-        words = ["#workshop", "#de", "#yoan"] #à changer par vos mots à vous :) :smile:
+        words = ["#workshop", "#de", "#yoan"] #à changer par vos mots à vous :)
         for word in words:
             if word in text:
                 to_return += word + ";"
