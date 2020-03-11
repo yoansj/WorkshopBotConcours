@@ -25,23 +25,24 @@ Great you found words that indicates that you must follow the users, but now you
 
 ```python3
     def isLetter(self, letter):
-        letters = "azertyuiopqsdfghjklmwxcvbn0123456789_"
+        letters = "azertyuiopqsdfghjklmwxcvbn0123456789_" #Ce sont tous les caractères qui peuvent être présents dans un nom d'utilisateur twitter
         for l in letters:
             if letter == l:
                 return True
         return False
 
+    #Complétez la fonction suivante en remplaçant les croix XXX
     def findUser(self, index, tweet_text):
-        find = tweet_text.find("@", index)
+        find = tweet_text.find(XXX, index)
         tempUserName = ""
         if find != -1:
             find += 1
             for letter in tweet_text[find: :1]:
-                if self.isLetter(letter.lower()) == True:
+                if XXX == True: # Il faut checker à cette ligne si la lettre fait parti des caractères autorisés dans un pseudo, la fonction est censée marcher avec les majuscules et les minuscules (utilisez .lower)
                     tempUserName = tempUserName + letter
                 else:
                     break
             self.usernames.append(tempUserName)
-            if tweet_text.find("@", find + 1) != -1:
+            if tweet_text.find(XXX, find + 1) != -1:
                 self.findUser(find + 1, tweet_text)
 ```
