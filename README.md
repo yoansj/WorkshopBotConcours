@@ -16,3 +16,7 @@
   * How to like
   * Like with conditions
 * [Step 3 : Vous SUIVEZ toujours ?](Step3.md)
+  * How to follow
+  * Follow with conditions
+  * Follow everybody
+  * Improve your bot
