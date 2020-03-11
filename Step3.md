@@ -77,14 +77,18 @@ To do so use the following functions :
 
 Once you completed this, your bot should be able to like, retweet and follow the users to enter contests :happy:
 
-### Wait it's not over
+### Wait it's not over :open_mouth:
 
 If you succeded the 3 steps you have a basic bot that enters contests but you can improve the bot on many aspects :thinking:
 
 Here is a list of functionnalities that you can make that will improve your bot, you can do them in any order
 
 * Check if the tweet is a contest by searching for words that indicate it (**you should start by this one**)
+* Create a sleep system that makes the bot wait every x tweet processed so that it doesn't bypass twitter requests limits
 * Create a log system that writes in a file the actions that your bot are doing
 * Simmilary to the like and rt functionnality create a tag functionnality that identifies other accounts when it's needed
 * Create a configuration file that lets you changes the words or other settings of the bot easily
-* Create a system that automatically relaunch your bot when it crashes or when it stopps
+* Create a system that automatically relaunch your bot when it crashes or when it stops
+* Create a blacklist system to prevent the bot from interacting with tweets of undesired users (like other bots)
+
+**Feel free to do any other functionnality that you like :smile: **
