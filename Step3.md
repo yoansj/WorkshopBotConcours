@@ -73,6 +73,8 @@ To do so use the following functions :
                 XXX # Ligne ou on follow l'utilisateur
             except:
                 print("Error while following user :", user) # Si on arrive pas à follow l'utilisateur
+                
+    #Remember to empty the usernames list after the call of this function
 ```
 
 Once you completed this, your bot should be able to like, retweet and follow the users to enter contests :sunglasses:
