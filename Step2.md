@@ -26,3 +26,5 @@ Create a function simmilar to the function doWeRT called doWeLike that searches 
 Does your bot likes and retweets the tweets containing the words specified in the doWeRt and doWeLike functions ?
 
 If so go to the next step, if not ask for some help :sunglasses:
+
+[Step 3 : Vous SUIVEZ toujours ?](Step3.md)
