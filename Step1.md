@@ -98,3 +98,5 @@ When it returns a non False value you must RT the tweet. The non False value cor
 Does your bot RT the tweets only when it finds the words written in the doWeRT function ?
 
 If yes head on to the next exercise :smile:
+
+[Step 2 : Laisse un Like (rip fav)](Step2.md)
