@@ -91,4 +91,4 @@ Here is a list of functionnalities that you can make that will improve your bot,
 * Create a system that automatically relaunch your bot when it crashes or when it stops
 * Create a blacklist system to prevent the bot from interacting with tweets of undesired users (like other bots)
 
-**Feel free to do any other functionnality that you like :smile: **
+**Feel free to do any other functionnality that you like :smile:**
