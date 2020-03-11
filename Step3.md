@@ -74,3 +74,17 @@ To do so use the following functions :
             except:
                 print("Error while following user :", user) # Si on arrive pas à follow l'utilisateur
 ```
+
+Once you completed this, your bot should be able to like, retweet and follow the users to enter contests :happy:
+
+### Wait it's not over
+
+If you succeded the 3 steps you have a basic bot that enters contests but you can improve the bot on many aspects :thinking:
+
+Here is a list of functionnalities that you can make that will improve your bot, you can do them in any order
+
+* Check if the tweet is a contest by searching for words that indicate it (**you should start by this one**)
+* Create a log system that writes in a file the actions that your bot are doing
+* Simmilary to the like and rt functionnality create a tag functionnality that identifies other accounts when it's needed
+* Create a configuration file that lets you changes the words or other settings of the bot easily
+* Create a system that automatically relaunch your bot when it crashes or when it stopps
