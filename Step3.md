@@ -75,7 +75,7 @@ To do so use the following functions :
                 print("Error while following user :", user) # Si on arrive pas à follow l'utilisateur
 ```
 
-Once you completed this, your bot should be able to like, retweet and follow the users to enter contests :happy:
+Once you completed this, your bot should be able to like, retweet and follow the users to enter contests :sunglasses:
 
 ### Wait it's not over :open_mouth:
 
