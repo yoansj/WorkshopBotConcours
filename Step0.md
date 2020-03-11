@@ -68,3 +68,5 @@ pyhton3 myfile.py
 ```
 
 If the code runs without errors and prints a bunch of informations in your terminal than congratulations you survived ! :tada:
+
+[Step 1 : RT si t triste](Step1.md)
