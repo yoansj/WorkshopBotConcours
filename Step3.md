@@ -21,28 +21,56 @@ The goal of this exercise is to make a simple function that searches for words i
 
 ### Ex 03 : Following everybody
 
-Great you found words that indicates that you must follow the users, but now you must get all the users (@) in the tweet and follow them.
+Great you found words that indicates that you must follow the users but how to follow the users :question:
+
+Firstly you will declare a member variable in your class called usernames it will be a list so initialize it by doing so :
 
 ```python3
+usernames = list()
+````
+We want the bot to do the following thing :
+* Searching for words that indicates if we must follow the users
+* If we found a word start the search for usernames
+    * Search every @ in the tweet text
+    * For each @ character after the @ check if the char is a char that can be in a username
+    * If so add the char in a temporary variable
+    * If the char is not a user char break and check for the next @ in the tweet
+
+To do so use the following functions :
+
+```python3
+    # Fonction qui permet de checker si le caractère est un caractère du username
     def isLetter(self, letter):
-        letters = "azertyuiopqsdfghjklmwxcvbn0123456789_" #Ce sont tous les caractères qui peuvent être présents dans un nom d'utilisateur twitter
+        letters = "azertyuiopqsdfghjklmwxcvbn0123456789_" # Ce sont tous les caractères qui peuvent être présents dans un nom d'utilisateur twitter
         for l in letters:
             if letter == l:
                 return True
         return False
 
-    #Complétez la fonction suivante en remplaçant les croix XXX
+    #Fonction qui récupére tous les utilisateurs
+    #Complétez la fonction suivante en remplaçant les XXX
     def findUser(self, index, tweet_text):
         find = tweet_text.find(XXX, index)
         tempUserName = ""
         if find != -1:
             find += 1
             for letter in tweet_text[find: :1]:
-                if XXX == True: # Il faut checker à cette ligne si la lettre fait parti des caractères autorisés dans un pseudo, la fonction est censée marcher avec les majuscules et les minuscules (utilisez .lower)
+                # Il faut checker à la ligne du dessous si la lettre fait parti des caractères autorisés dans un pseudo
+                # La fonction est censée marcher avec les majuscules et les minuscules (utilisez .lower)
+                if XXX == True:
                     tempUserName = tempUserName + letter
                 else:
                     break
-            self.usernames.append(tempUserName)
+            self.XXX # A cette ligne il faut ajouter le pseudo dans la liste des utilisateurs qu'on va follow
             if tweet_text.find(XXX, find + 1) != -1:
                 self.findUser(find + 1, tweet_text)
+    
+    #Fonction qui permet de follow tous les utilisateurs
+    #Complétez la fonction suivante en remplaçant les XXX  
+    def followUsers(self):
+        for user in self.###:
+            try:
+                XXX # Ligne ou on follow l'utilisateur
+            except:
+                print("Error while following user :", user) # Si on arrive pas à follow l'utilisateur
 ```
